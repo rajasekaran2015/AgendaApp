@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1" />
+<title>Welcome - TMobile</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<style type="text/css">
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  #titleImg{
+    height: 200px;
+    width: 100%;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  #titleImg{
+    height: 400px;
+    width: 100%;
+  }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  #titleImg{
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="titleImgDiv">
+        <img src="Picture2.png" class="img-responsive" id="titleImg" alt="Cinque Terre">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        </br>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-md-12 table-responsive" id="bodyDiv">
+        <table class="table table-striped">
+          <thead style="color: white;">
+            <tr style="background-color: #FFA500;">
+              <td>MODERN APPLICATION FOR THE 21ST CENTURY ENTERPRISE</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+			  We are witnessing a transformation in the way business is conducted. New technology has reduced the barriers to entry into markets and allowed the creation of new business models that simply weren’t possible before. Competition from new and nimble born-digital companies is causing widespread disruption. In addition, customer expectations have fundamentally changed as the digital age has made them more connected and informed.<br/>
+			  <br/><i>Creating digital platforms to modernize applications and engagement landscapes</i>...<a title="Modern Application" href="http://www.hcltech.com/systems-integration/modern-application-development-using-digital-platforms">read more</a></td>
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+	<div class="row">
+      <div class="col-md-12 table-responsive" id="bodyDiv">
+        <table class="table table-striped">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+			  <th>Demo Name: The 21st Centure ADPaaS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+			  ADPaas or Application development as a PaaS bring in concepts of automated code generation, CI/CD, static code analysis, unit test automation on the development side of the house on a single platform.
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped table-responsive" style="width: 100%; word-wrap:break-word;
+              table-layout: fixed;">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+              <th>Business Value</th>
+			  <th>Tools</th>
+              <th>Subject Matter Expert</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ADPaaS a single point development platform with extreme delivery pipeline automation which is of vital importance in a conteinerized development and delivery model.</td>
+              <td>
+				<li>Jenkins</li><li>YOMEN</li><li>Elk</li><li>SONAR Qube</li></td>
+			  <td>
+						Sandeep Rajpathak
+						<br>Rajesh Kumar
+				<a href="#openModal">
+				</a>
+				<div id="openModal" class="modalDialog">
+					<div>
+						<a href="#close" title="Close" class="close">X</a>
+						<img src="Picture1.png" class="img-responsive" id="titleImg" alt="Cinque Terre">
+						<h2>Jane Doe</h2>
+						<p>Sandeep is the present head of MAS CoE. He has been working with HCL for the past 10 years.</p>
+						<p>Sandeep's main focus areas in the organization is to corss polinate learnings from all major accoutns. Creating best practices and building strategy based upon industry inputs towards solutioning.</p>
+					</div>
+				</div>
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+	</div>
+	<div class="row">
+      <div class="col-md-12 table-responsive" id="bodyDiv">
+        <table class="table table-striped">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+			  <th>Demo Name: DevOps 2.0 The Next Wave</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+			  DevOps 2.0 aims at showcasing how the delivery pipeline can be automated for modern applications that are cloud enabled and are built keeping micro-services architecture style.
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped table-responsive" style="width: 100%; word-wrap:break-word;
+              table-layout: fixed;">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+              <th>Business Value</th>
+			  <th>Tools</th>
+              <th>Subject Matter Expert</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Faster go to market by automating CI/CD pipeline. Improved devlopment efficiency via automated deployment nd prvisioning. Reduced environment maintenance overhead as deployment and configuration of applications are automated.</td>
+              <td>
+				<li>Shippable</li><li>AWS</li><li>SpringBoot based microservice</li></td>
+			  <td style>
+
+					Sandeep Rajpathak<br>
+				<a href="#openModal1">
+				</a>
+				<div id="openModal1" class="modalDialog">
+					<div>
+						<a href="#close" title="Close" class="close">X</a>
+						<img src="Picture1.png" class="img-responsive" id="titleImg" alt="Cinque Terre">
+						<h2>John Smith</h2>
+						<p>Sandeep is the present head of MAS CoE. He has been working with HCL for the past 10 years.</p>
+						<p>Sandeep's main focus areas in the organization is to corss polinate learnings from all major accoutns. Creating best practices and building strategy based upon industry inputs towards solutioning.</p>
+					</div>
+				</div>
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+     <div class="row">
+      <div class="col-md-12 table-responsive" id="bodyDiv">
+        <table class="table table-striped">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+			  <th>Demo Name: Enabling TIBCO on the cloud</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+			  An automated approach to migrate existing TIBCO 5.11 services to TIBCO Container Edition.
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped table-responsive" style="width: 100%; word-wrap:break-word;
+              table-layout: fixed;">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+              <th>Business Value</th>
+			  <th>Tools</th>
+              <th>Subject Matter Expert</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>T-Mobile has built well over 1000 services which are presently on TIBCO 5.11. These will need to be cloud enabled by re-engineering them in TIBCO CE. Taking a programitic approach towards this is essential and can substantially reduce the effort.</td>
+              <td>
+				<li>Java</li><li>XSLT</li><li>Batch scripts</li><li>TIBCO CE Migratation Utility</li></td>
+			  <td>
+
+					Abhishek Sinha<br>
+				<a href="#openModal2">
+				</a>
+				<div id="openModal2" class="modalDialog">
+					<div>
+						<a href="#close" title="Close" class="close">X</a>
+						<img src="Picture1.png" class="img-responsive" id="titleImg" alt="Cinque Terre">
+						<h2>John Smith</h2>
+						<p>Sandeep is the present head of MAS CoE. He has been working with HCL for the past 10 years.</p>
+						<p>Sandeep's main focus areas in the organization is to corss polinate learnings from all major accoutns. Creating best practices and building strategy based upon industry inputs towards solutioning.</p>
+					</div>
+				</div>
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  <div class="row">
+      <div class="col-md-12 table-responsive" id="bodyDiv">
+        <table class="table table-striped">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+			  <th>Demo Name: Intelliverse</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+			  Intelliverse is a modular and extensible platform that enables an organization to quickly deploy a dialogue driven platform to interact with their customers across multiple messaging & virtual assistant channels while ensuring a consistent brand experience.
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped table-responsive" style="width: 100%; word-wrap:break-word;
+              table-layout: fixed;">
+          <thead style="color: white;">
+            <tr style="background-color: #353332;">
+              <th>Business Value</th>
+			  <th>Tools</th>
+              <th>Subject Matter Expert</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Enhanced and consistent customer experience. Opportunity to provide customer with context based upsell and cross-sell options.</td>
+              <td>
+				<li>Facebook Messager</li><li>NLP Toolkit</li></td>
+			  <td>
+				<a href="#openModal3">
+					Anurag Singh
+				</a>
+				<div id="openModal3" class="modalDialog">
+					<div>
+						<a href="#close" title="Close" class="close">X</a>
+						<img src="Anurag.png" class="img-responsive" id="titleImg" alt="Cinque Terre">
+						<h2>Anurag Singh – Delivery Manager - PMP®, ITIL®</h2>
+						<p>Anurag has sixteen years of experience in providing Content Management (ECM/WCM), Digital Experience Management (DXM), and business process management solutions across various domains.</p>
+					</div>
+				</div>
+				<a href="#openModal4">
+					<br>Dipti Sethi
+				</a>
+				<div id="openModal4" class="modalDialog">
+					<div>
+						<a href="#close" title="Close" class="close">X</a>
+						<img src="Dipti.png" class="img-responsive" id="titleImg" alt="Cinque Terre">
+						<h2>Dipti Sethi</h2>
+						<p>Dipti has experience in leveraging the technologies of Natural Language Processing, Machine Learning, Artificial Intelligence. With almost seven years of industry experience, Dipti has worked in the IT industry in areas of Pre-sales, Bid management, Business Development, Business Analysis in Content Analytics, Sales & software development.
+						</p>
+					</div>
+				</div>
+			  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>promoId</key>
+	<string>00007</string>
+	<key>title</key>
+	<string>Pod 7</string>
+	<key>description</key>
+	<string>Sophisticated modern sofa design</string>
+	<key>oldPrice</key>
+	<string>₹1099.00</string>
+	<key>newPrice</key>
+	<string>₹879.00</string>
+	<key>offerValue</key>
+	<string>20% OFF</string>
+	<key>validity</key>
+	<string>Valid till Mar 5th</string>
+	<key>code</key>
+	<string>C11346</string>
+	<key>rating</key>
+	<integer>3</integer>
+	<key>imageThumb</key>
+	<string>coupon4.png</string>
+	<key>imageLarge</key>
+	<string>couponBig4.png</string>
+	<key>totalRatings</key>
+	<string>420</string>
+	<key>isFemale</key>
+	<integer>100</integer>
+</dict>
+</plist>

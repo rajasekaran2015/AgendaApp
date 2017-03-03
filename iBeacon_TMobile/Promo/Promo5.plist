@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>promoId</key>
+	<string>00005</string>
+	<key>title</key>
+	<string>Agenda</string>
+	<key>description</key>
+	<string>Working table made to take damage</string>
+	<key>oldPrice</key>
+	<string>₹102.00</string>
+	<key>newPrice</key>
+	<string>₹80.00</string>
+	<key>offerValue</key>
+	<string>20% OFF</string>
+	<key>validity</key>
+	<string>Valid till May 7th</string>
+	<key>code</key>
+	<string>C11331</string>
+	<key>rating</key>
+	<integer>3</integer>
+	<key>imageThumb</key>
+	<string>coupon5.png</string>
+	<key>imageLarge</key>
+	<string>couponBig5.png</string>
+	<key>totalRatings</key>
+	<string>367</string>
+	<key>isFemale</key>
+	<integer>100</integer>
+</dict>
+</plist>

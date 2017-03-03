@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>promoId</key>
+	<string>00002</string>
+	<key>title</key>
+	<string>IOT &amp; Engineering Excellence</string>
+	<key>description</key>
+	<string>Chocolate brown woven cloth satchel bag</string>
+	<key>oldPrice</key>
+	<string>₹50.00</string>
+	<key>newPrice</key>
+	<string>₹45.00</string>
+	<key>offerValue</key>
+	<string>10% OFF</string>
+	<key>validity</key>
+	<string>Valid for 2 Days</string>
+	<key>code</key>
+	<string>C12345</string>
+	<key>rating</key>
+	<integer>4</integer>
+	<key>imageThumb</key>
+	<string>coupon2.png</string>
+	<key>imageLarge</key>
+	<string>couponBig2.png</string>
+	<key>totalRatings</key>
+	<string>390</string>
+	<key>New item</key>
+	<string></string>
+	<key>isFemale</key>
+	<integer>1</integer>
+</dict>
+</plist>

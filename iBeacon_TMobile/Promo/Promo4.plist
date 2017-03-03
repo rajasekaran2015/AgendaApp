@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>promoId</key>
+	<string>00004</string>
+	<key>title</key>
+	<string>Next Gen App Platforms</string>
+	<key>description</key>
+	<string>Pick up a leather essential that no man’s wardrobe should be without.</string>
+	<key>oldPrice</key>
+	<string>₹23.55</string>
+	<key>newPrice</key>
+	<string>₹16.55</string>
+	<key>offerValue</key>
+	<string>₹7 OFF</string>
+	<key>validity</key>
+	<string>Valid till Apr 5th</string>
+	<key>code</key>
+	<string>C14567</string>
+	<key>rating</key>
+	<integer>3</integer>
+	<key>imageThumb</key>
+	<string>coupon4.png</string>
+	<key>imageLarge</key>
+	<string>couponBig4.png</string>
+	<key>totalRatings</key>
+	<string>277</string>
+	<key>isFemale</key>
+	<integer>0</integer>
+</dict>
+</plist>

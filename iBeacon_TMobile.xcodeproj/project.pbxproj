@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21592C351D9B995F007FFD39 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 21592C341D9B995F007FFD39 /* tap.aif */; };
+		217C51B61D946C7000CA4CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51B51D946C7000CA4CD9 /* main.m */; };
+		217C51B91D946C7000CA4CD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51B81D946C7000CA4CD9 /* AppDelegate.m */; };
+		217C51BC1D946C7100CA4CD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51BB1D946C7100CA4CD9 /* ViewController.m */; };
+		217C51BF1D946C7100CA4CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217C51BD1D946C7100CA4CD9 /* Main.storyboard */; };
+		217C51C21D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 217C51C01D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodeld */; };
+		217C51C41D946C7100CA4CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217C51C31D946C7100CA4CD9 /* Assets.xcassets */; };
+		217C51C71D946C7100CA4CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217C51C51D946C7100CA4CD9 /* LaunchScreen.storyboard */; };
+		217C51D21D946C7100CA4CD9 /* iBeacon_TMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51D11D946C7100CA4CD9 /* iBeacon_TMobileTests.m */; };
+		217C51DD1D946C7100CA4CD9 /* iBeacon_TMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51DC1D946C7100CA4CD9 /* iBeacon_TMobileUITests.m */; };
+		217C51EC1D94790000CA4CD9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51EB1D94790000CA4CD9 /* HomeViewController.m */; };
+		217C51EF1D94A62700CA4CD9 /* CouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51EE1D94A62700CA4CD9 /* CouponViewController.m */; };
+		217C51F21D94BE4E00CA4CD9 /* CouponCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51F11D94BE4E00CA4CD9 /* CouponCollectionViewCell.m */; };
+		217C51F61D9558CB00CA4CD9 /* CouponDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51F51D9558CB00CA4CD9 /* CouponDetailViewController.m */; };
+		217C51F91D95651200CA4CD9 /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C51F81D95651200CA4CD9 /* Coupon.m */; };
+		217C52031D95661900CA4CD9 /* Promo1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C51FB1D95661900CA4CD9 /* Promo1.plist */; };
+		217C52041D95661900CA4CD9 /* Promo2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C51FC1D95661900CA4CD9 /* Promo2.plist */; };
+		217C52051D95661900CA4CD9 /* Promo3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C51FD1D95661900CA4CD9 /* Promo3.plist */; };
+		217C52061D95661900CA4CD9 /* Promo4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C51FE1D95661900CA4CD9 /* Promo4.plist */; };
+		217C52071D95661900CA4CD9 /* Promo5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C51FF1D95661900CA4CD9 /* Promo5.plist */; };
+		217C52081D95661900CA4CD9 /* Promo6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C52001D95661900CA4CD9 /* Promo6.plist */; };
+		217C52091D95661900CA4CD9 /* Promo7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C52011D95661900CA4CD9 /* Promo7.plist */; };
+		217C520A1D95661900CA4CD9 /* Promo8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217C52021D95661900CA4CD9 /* Promo8.plist */; };
+		217C520E1D95820B00CA4CD9 /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C520D1D95820B00CA4CD9 /* CustomIOSAlertView.m */; };
+		217C52101D95A36F00CA4CD9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 217C520F1D95A36F00CA4CD9 /* Settings.bundle */; };
+		217C522B1D95A66D00CA4CD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217C522A1D95A66D00CA4CD9 /* CoreLocation.framework */; };
+		217C522F1D95FA5D00CA4CD9 /* HorizontalCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C522E1D95FA5D00CA4CD9 /* HorizontalCollectionViewLayout.m */; };
+		21B40EF91D9A603C0067A4D8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B40EF81D9A603C0067A4D8 /* WebViewController.m */; };
+		21B40EFE1D9A8B790067A4D8 /* TMobile in Resources */ = {isa = PBXBuildFile; fileRef = 21B40EFD1D9A8B790067A4D8 /* TMobile */; };
+		21B40F131D9AAD7E0067A4D8 /* Promo+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B40F0C1D9AAD7E0067A4D8 /* Promo+CoreDataClass.m */; };
+		21B40F141D9AAD7E0067A4D8 /* Promo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B40F0E1D9AAD7E0067A4D8 /* Promo+CoreDataProperties.m */; };
+		21B40F151D9AAD7E0067A4D8 /* Beacon+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B40F101D9AAD7E0067A4D8 /* Beacon+CoreDataClass.m */; };
+		21B40F161D9AAD7E0067A4D8 /* Beacon+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B40F121D9AAD7E0067A4D8 /* Beacon+CoreDataProperties.m */; };
+		21E0E03D1D9718F0009A02DF /* PromoImages in Resources */ = {isa = PBXBuildFile; fileRef = 21E0E03C1D9718F0009A02DF /* PromoImages */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217C51CE1D946C7100CA4CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217C51A91D946C7000CA4CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217C51B01D946C7000CA4CD9;
+			remoteInfo = iBeacon_TMobile;
+		};
+		217C51D91D946C7100CA4CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217C51A91D946C7000CA4CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217C51B01D946C7000CA4CD9;
+			remoteInfo = iBeacon_TMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21592C341D9B995F007FFD39 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+		217C51B11D946C7000CA4CD9 /* T-Mobile Visit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-Mobile Visit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217C51B51D946C7000CA4CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		217C51B71D946C7000CA4CD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		217C51B81D946C7000CA4CD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		217C51BA1D946C7100CA4CD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		217C51BB1D946C7100CA4CD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		217C51BE1D946C7100CA4CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		217C51C11D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBeacon_TMobile.xcdatamodel; sourceTree = "<group>"; };
+		217C51C31D946C7100CA4CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217C51C61D946C7100CA4CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		217C51C81D946C7100CA4CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217C51CD1D946C7100CA4CD9 /* iBeacon_TMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeacon_TMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217C51D11D946C7100CA4CD9 /* iBeacon_TMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeacon_TMobileTests.m; sourceTree = "<group>"; };
+		217C51D31D946C7100CA4CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217C51D81D946C7100CA4CD9 /* iBeacon_TMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeacon_TMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217C51DC1D946C7100CA4CD9 /* iBeacon_TMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeacon_TMobileUITests.m; sourceTree = "<group>"; };
+		217C51DE1D946C7100CA4CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217C51EA1D94790000CA4CD9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		217C51EB1D94790000CA4CD9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		217C51ED1D94A62700CA4CD9 /* CouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponViewController.h; sourceTree = "<group>"; };
+		217C51EE1D94A62700CA4CD9 /* CouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponViewController.m; sourceTree = "<group>"; };
+		217C51F01D94BE4E00CA4CD9 /* CouponCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponCollectionViewCell.h; sourceTree = "<group>"; };
+		217C51F11D94BE4E00CA4CD9 /* CouponCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponCollectionViewCell.m; sourceTree = "<group>"; };
+		217C51F41D9558CB00CA4CD9 /* CouponDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponDetailViewController.h; sourceTree = "<group>"; };
+		217C51F51D9558CB00CA4CD9 /* CouponDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponDetailViewController.m; sourceTree = "<group>"; };
+		217C51F71D95651100CA4CD9 /* Coupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coupon.h; sourceTree = "<group>"; };
+		217C51F81D95651200CA4CD9 /* Coupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coupon.m; sourceTree = "<group>"; };
+		217C51FB1D95661900CA4CD9 /* Promo1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo1.plist; sourceTree = "<group>"; };
+		217C51FC1D95661900CA4CD9 /* Promo2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo2.plist; sourceTree = "<group>"; };
+		217C51FD1D95661900CA4CD9 /* Promo3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo3.plist; sourceTree = "<group>"; };
+		217C51FE1D95661900CA4CD9 /* Promo4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo4.plist; sourceTree = "<group>"; };
+		217C51FF1D95661900CA4CD9 /* Promo5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo5.plist; sourceTree = "<group>"; };
+		217C52001D95661900CA4CD9 /* Promo6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo6.plist; sourceTree = "<group>"; };
+		217C52011D95661900CA4CD9 /* Promo7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo7.plist; sourceTree = "<group>"; };
+		217C52021D95661900CA4CD9 /* Promo8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Promo8.plist; sourceTree = "<group>"; };
+		217C520C1D95820B00CA4CD9 /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
+		217C520D1D95820B00CA4CD9 /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		217C520F1D95A36F00CA4CD9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		217C522A1D95A66D00CA4CD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		217C522C1D95A7E200CA4CD9 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		217C522D1D95FA5C00CA4CD9 /* HorizontalCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCollectionViewLayout.h; sourceTree = "<group>"; };
+		217C522E1D95FA5D00CA4CD9 /* HorizontalCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCollectionViewLayout.m; sourceTree = "<group>"; };
+		21B40EF71D9A603C0067A4D8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		21B40EF81D9A603C0067A4D8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		21B40EFD1D9A8B790067A4D8 /* TMobile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TMobile; sourceTree = "<group>"; };
+		21B40F0B1D9AAD7E0067A4D8 /* Promo+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Promo+CoreDataClass.h"; sourceTree = "<group>"; };
+		21B40F0C1D9AAD7E0067A4D8 /* Promo+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Promo+CoreDataClass.m"; sourceTree = "<group>"; };
+		21B40F0D1D9AAD7E0067A4D8 /* Promo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Promo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		21B40F0E1D9AAD7E0067A4D8 /* Promo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Promo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		21B40F0F1D9AAD7E0067A4D8 /* Beacon+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Beacon+CoreDataClass.h"; sourceTree = "<group>"; };
+		21B40F101D9AAD7E0067A4D8 /* Beacon+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Beacon+CoreDataClass.m"; sourceTree = "<group>"; };
+		21B40F111D9AAD7E0067A4D8 /* Beacon+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Beacon+CoreDataProperties.h"; sourceTree = "<group>"; };
+		21B40F121D9AAD7E0067A4D8 /* Beacon+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Beacon+CoreDataProperties.m"; sourceTree = "<group>"; };
+		21E0E03C1D9718F0009A02DF /* PromoImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PromoImages; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217C51AE1D946C7000CA4CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217C522B1D95A66D00CA4CD9 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C51CA1D946C7100CA4CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C51D51D946C7100CA4CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217C51A81D946C7000CA4CD9 = {
+			isa = PBXGroup;
+			children = (
+				217C522A1D95A66D00CA4CD9 /* CoreLocation.framework */,
+				217C51B31D946C7000CA4CD9 /* iBeacon_TMobile */,
+				217C51D01D946C7100CA4CD9 /* iBeacon_TMobileTests */,
+				217C51DB1D946C7100CA4CD9 /* iBeacon_TMobileUITests */,
+				217C51B21D946C7000CA4CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217C51B21D946C7000CA4CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217C51B11D946C7000CA4CD9 /* T-Mobile Visit.app */,
+				217C51CD1D946C7100CA4CD9 /* iBeacon_TMobileTests.xctest */,
+				217C51D81D946C7100CA4CD9 /* iBeacon_TMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217C51B31D946C7000CA4CD9 /* iBeacon_TMobile */ = {
+			isa = PBXGroup;
+			children = (
+				21B40EFD1D9A8B790067A4D8 /* TMobile */,
+				21E0E03C1D9718F0009A02DF /* PromoImages */,
+				217C521D1D95A51A00CA4CD9 /* CoreData */,
+				217C51FA1D95661900CA4CD9 /* Promo */,
+				217C51B71D946C7000CA4CD9 /* AppDelegate.h */,
+				217C51B81D946C7000CA4CD9 /* AppDelegate.m */,
+				217C51BA1D946C7100CA4CD9 /* ViewController.h */,
+				217C51BB1D946C7100CA4CD9 /* ViewController.m */,
+				217C51EA1D94790000CA4CD9 /* HomeViewController.h */,
+				217C51EB1D94790000CA4CD9 /* HomeViewController.m */,
+				217C51ED1D94A62700CA4CD9 /* CouponViewController.h */,
+				217C51EE1D94A62700CA4CD9 /* CouponViewController.m */,
+				217C51F41D9558CB00CA4CD9 /* CouponDetailViewController.h */,
+				217C51F51D9558CB00CA4CD9 /* CouponDetailViewController.m */,
+				217C51F01D94BE4E00CA4CD9 /* CouponCollectionViewCell.h */,
+				217C51F11D94BE4E00CA4CD9 /* CouponCollectionViewCell.m */,
+				217C522D1D95FA5C00CA4CD9 /* HorizontalCollectionViewLayout.h */,
+				217C522E1D95FA5D00CA4CD9 /* HorizontalCollectionViewLayout.m */,
+				21B40EF71D9A603C0067A4D8 /* WebViewController.h */,
+				21B40EF81D9A603C0067A4D8 /* WebViewController.m */,
+				217C51F71D95651100CA4CD9 /* Coupon.h */,
+				217C51F81D95651200CA4CD9 /* Coupon.m */,
+				217C51BD1D946C7100CA4CD9 /* Main.storyboard */,
+				217C51C31D946C7100CA4CD9 /* Assets.xcassets */,
+				217C51C51D946C7100CA4CD9 /* LaunchScreen.storyboard */,
+				217C51C81D946C7100CA4CD9 /* Info.plist */,
+				217C51C01D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodeld */,
+				217C51B41D946C7000CA4CD9 /* Supporting Files */,
+			);
+			path = iBeacon_TMobile;
+			sourceTree = "<group>";
+		};
+		217C51B41D946C7000CA4CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21592C341D9B995F007FFD39 /* tap.aif */,
+				217C520F1D95A36F00CA4CD9 /* Settings.bundle */,
+				217C51B51D946C7000CA4CD9 /* main.m */,
+				217C522C1D95A7E200CA4CD9 /* Constants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217C51D01D946C7100CA4CD9 /* iBeacon_TMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				217C51D11D946C7100CA4CD9 /* iBeacon_TMobileTests.m */,
+				217C51D31D946C7100CA4CD9 /* Info.plist */,
+			);
+			path = iBeacon_TMobileTests;
+			sourceTree = "<group>";
+		};
+		217C51DB1D946C7100CA4CD9 /* iBeacon_TMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				217C51DC1D946C7100CA4CD9 /* iBeacon_TMobileUITests.m */,
+				217C51DE1D946C7100CA4CD9 /* Info.plist */,
+			);
+			path = iBeacon_TMobileUITests;
+			sourceTree = "<group>";
+		};
+		217C51FA1D95661900CA4CD9 /* Promo */ = {
+			isa = PBXGroup;
+			children = (
+				217C520C1D95820B00CA4CD9 /* CustomIOSAlertView.h */,
+				217C520D1D95820B00CA4CD9 /* CustomIOSAlertView.m */,
+				217C51FB1D95661900CA4CD9 /* Promo1.plist */,
+				217C51FC1D95661900CA4CD9 /* Promo2.plist */,
+				217C51FD1D95661900CA4CD9 /* Promo3.plist */,
+				217C51FE1D95661900CA4CD9 /* Promo4.plist */,
+				217C51FF1D95661900CA4CD9 /* Promo5.plist */,
+				217C52001D95661900CA4CD9 /* Promo6.plist */,
+				217C52011D95661900CA4CD9 /* Promo7.plist */,
+				217C52021D95661900CA4CD9 /* Promo8.plist */,
+			);
+			path = Promo;
+			sourceTree = "<group>";
+		};
+		217C521D1D95A51A00CA4CD9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				21B40F0B1D9AAD7E0067A4D8 /* Promo+CoreDataClass.h */,
+				21B40F0C1D9AAD7E0067A4D8 /* Promo+CoreDataClass.m */,
+				21B40F0D1D9AAD7E0067A4D8 /* Promo+CoreDataProperties.h */,
+				21B40F0E1D9AAD7E0067A4D8 /* Promo+CoreDataProperties.m */,
+				21B40F0F1D9AAD7E0067A4D8 /* Beacon+CoreDataClass.h */,
+				21B40F101D9AAD7E0067A4D8 /* Beacon+CoreDataClass.m */,
+				21B40F111D9AAD7E0067A4D8 /* Beacon+CoreDataProperties.h */,
+				21B40F121D9AAD7E0067A4D8 /* Beacon+CoreDataProperties.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217C51B01D946C7000CA4CD9 /* iBeacon_TMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217C51E11D946C7100CA4CD9 /* Build configuration list for PBXNativeTarget "iBeacon_TMobile" */;
+			buildPhases = (
+				217C51AD1D946C7000CA4CD9 /* Sources */,
+				217C51AE1D946C7000CA4CD9 /* Frameworks */,
+				217C51AF1D946C7000CA4CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBeacon_TMobile;
+			productName = iBeacon_TMobile;
+			productReference = 217C51B11D946C7000CA4CD9 /* T-Mobile Visit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217C51CC1D946C7100CA4CD9 /* iBeacon_TMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217C51E41D946C7100CA4CD9 /* Build configuration list for PBXNativeTarget "iBeacon_TMobileTests" */;
+			buildPhases = (
+				217C51C91D946C7100CA4CD9 /* Sources */,
+				217C51CA1D946C7100CA4CD9 /* Frameworks */,
+				217C51CB1D946C7100CA4CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217C51CF1D946C7100CA4CD9 /* PBXTargetDependency */,
+			);
+			name = iBeacon_TMobileTests;
+			productName = iBeacon_TMobileTests;
+			productReference = 217C51CD1D946C7100CA4CD9 /* iBeacon_TMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		217C51D71D946C7100CA4CD9 /* iBeacon_TMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217C51E71D946C7100CA4CD9 /* Build configuration list for PBXNativeTarget "iBeacon_TMobileUITests" */;
+			buildPhases = (
+				217C51D41D946C7100CA4CD9 /* Sources */,
+				217C51D51D946C7100CA4CD9 /* Frameworks */,
+				217C51D61D946C7100CA4CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217C51DA1D946C7100CA4CD9 /* PBXTargetDependency */,
+			);
+			name = iBeacon_TMobileUITests;
+			productName = iBeacon_TMobileUITests;
+			productReference = 217C51D81D946C7100CA4CD9 /* iBeacon_TMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217C51A91D946C7000CA4CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rajasekaran Sagadevan";
+				TargetAttributes = {
+					217C51B01D946C7000CA4CD9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 47F2KXC4F9;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					217C51CC1D946C7100CA4CD9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 217C51B01D946C7000CA4CD9;
+					};
+					217C51D71D946C7100CA4CD9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 217C51B01D946C7000CA4CD9;
+					};
+				};
+			};
+			buildConfigurationList = 217C51AC1D946C7000CA4CD9 /* Build configuration list for PBXProject "iBeacon_TMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217C51A81D946C7000CA4CD9;
+			productRefGroup = 217C51B21D946C7000CA4CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217C51B01D946C7000CA4CD9 /* iBeacon_TMobile */,
+				217C51CC1D946C7100CA4CD9 /* iBeacon_TMobileTests */,
+				217C51D71D946C7100CA4CD9 /* iBeacon_TMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217C51AF1D946C7000CA4CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217C52091D95661900CA4CD9 /* Promo7.plist in Resources */,
+				217C52071D95661900CA4CD9 /* Promo5.plist in Resources */,
+				217C52051D95661900CA4CD9 /* Promo3.plist in Resources */,
+				21B40EFE1D9A8B790067A4D8 /* TMobile in Resources */,
+				217C52041D95661900CA4CD9 /* Promo2.plist in Resources */,
+				217C52101D95A36F00CA4CD9 /* Settings.bundle in Resources */,
+				217C52061D95661900CA4CD9 /* Promo4.plist in Resources */,
+				217C52031D95661900CA4CD9 /* Promo1.plist in Resources */,
+				217C51C71D946C7100CA4CD9 /* LaunchScreen.storyboard in Resources */,
+				21592C351D9B995F007FFD39 /* tap.aif in Resources */,
+				217C52081D95661900CA4CD9 /* Promo6.plist in Resources */,
+				217C520A1D95661900CA4CD9 /* Promo8.plist in Resources */,
+				217C51C41D946C7100CA4CD9 /* Assets.xcassets in Resources */,
+				21E0E03D1D9718F0009A02DF /* PromoImages in Resources */,
+				217C51BF1D946C7100CA4CD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C51CB1D946C7100CA4CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C51D61D946C7100CA4CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217C51AD1D946C7000CA4CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217C51C21D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodeld in Sources */,
+				217C51F21D94BE4E00CA4CD9 /* CouponCollectionViewCell.m in Sources */,
+				217C51BC1D946C7100CA4CD9 /* ViewController.m in Sources */,
+				217C51EF1D94A62700CA4CD9 /* CouponViewController.m in Sources */,
+				217C520E1D95820B00CA4CD9 /* CustomIOSAlertView.m in Sources */,
+				217C51B91D946C7000CA4CD9 /* AppDelegate.m in Sources */,
+				217C51F61D9558CB00CA4CD9 /* CouponDetailViewController.m in Sources */,
+				217C51F91D95651200CA4CD9 /* Coupon.m in Sources */,
+				217C522F1D95FA5D00CA4CD9 /* HorizontalCollectionViewLayout.m in Sources */,
+				21B40F161D9AAD7E0067A4D8 /* Beacon+CoreDataProperties.m in Sources */,
+				21B40F141D9AAD7E0067A4D8 /* Promo+CoreDataProperties.m in Sources */,
+				21B40F131D9AAD7E0067A4D8 /* Promo+CoreDataClass.m in Sources */,
+				21B40F151D9AAD7E0067A4D8 /* Beacon+CoreDataClass.m in Sources */,
+				21B40EF91D9A603C0067A4D8 /* WebViewController.m in Sources */,
+				217C51EC1D94790000CA4CD9 /* HomeViewController.m in Sources */,
+				217C51B61D946C7000CA4CD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C51C91D946C7100CA4CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217C51D21D946C7100CA4CD9 /* iBeacon_TMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217C51D41D946C7100CA4CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217C51DD1D946C7100CA4CD9 /* iBeacon_TMobileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217C51CF1D946C7100CA4CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217C51B01D946C7000CA4CD9 /* iBeacon_TMobile */;
+			targetProxy = 217C51CE1D946C7100CA4CD9 /* PBXContainerItemProxy */;
+		};
+		217C51DA1D946C7100CA4CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217C51B01D946C7000CA4CD9 /* iBeacon_TMobile */;
+			targetProxy = 217C51D91D946C7100CA4CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		217C51BD1D946C7100CA4CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217C51BE1D946C7100CA4CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		217C51C51D946C7100CA4CD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217C51C61D946C7100CA4CD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217C51DF1D946C7100CA4CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rajasekaran sagadevan (RU6L2TQG6R)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e9c1ea4a-9407-4da8-b137-068a806fc000";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		217C51E01D946C7100CA4CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HCL Technologies Ltd";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "29a2521d-a2c9-4e60-a996-cff8569a6078";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217C51E21D946C7100CA4CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HCL Technologies Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HCL Technologies Ltd";
+				DEVELOPMENT_TEAM = 47F2KXC4F9;
+				INFOPLIST_FILE = iBeacon_TMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcl.iBeacon-TMobile";
+				PRODUCT_NAME = "T-Mobile Visit";
+				PROVISIONING_PROFILE = "29a2521d-a2c9-4e60-a996-cff8569a6078";
+				PROVISIONING_PROFILE_SPECIFIER = "COE WILDCARD DISTRIBUTION CERTIFICATE";
+			};
+			name = Debug;
+		};
+		217C51E31D946C7100CA4CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HCL Technologies Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HCL Technologies Ltd";
+				INFOPLIST_FILE = iBeacon_TMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcl.iBeacon-TMobile";
+				PRODUCT_NAME = "T-Mobile Visit";
+				PROVISIONING_PROFILE = "29a2521d-a2c9-4e60-a996-cff8569a6078";
+				PROVISIONING_PROFILE_SPECIFIER = "COE WILDCARD DISTRIBUTION CERTIFICATE";
+			};
+			name = Release;
+		};
+		217C51E51D946C7100CA4CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iBeacon_TMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcl.iBeacon-TMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeacon_TMobile.app/iBeacon_TMobile";
+			};
+			name = Debug;
+		};
+		217C51E61D946C7100CA4CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iBeacon_TMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcl.iBeacon-TMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeacon_TMobile.app/iBeacon_TMobile";
+			};
+			name = Release;
+		};
+		217C51E81D946C7100CA4CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iBeacon_TMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcl.iBeacon-TMobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iBeacon_TMobile;
+			};
+			name = Debug;
+		};
+		217C51E91D946C7100CA4CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iBeacon_TMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcl.iBeacon-TMobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iBeacon_TMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217C51AC1D946C7000CA4CD9 /* Build configuration list for PBXProject "iBeacon_TMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217C51DF1D946C7100CA4CD9 /* Debug */,
+				217C51E01D946C7100CA4CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217C51E11D946C7100CA4CD9 /* Build configuration list for PBXNativeTarget "iBeacon_TMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217C51E21D946C7100CA4CD9 /* Debug */,
+				217C51E31D946C7100CA4CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217C51E41D946C7100CA4CD9 /* Build configuration list for PBXNativeTarget "iBeacon_TMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217C51E51D946C7100CA4CD9 /* Debug */,
+				217C51E61D946C7100CA4CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217C51E71D946C7100CA4CD9 /* Build configuration list for PBXNativeTarget "iBeacon_TMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217C51E81D946C7100CA4CD9 /* Debug */,
+				217C51E91D946C7100CA4CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		217C51C01D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				217C51C11D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodel */,
+			);
+			currentVersion = 217C51C11D946C7100CA4CD9 /* iBeacon_TMobile.xcdatamodel */;
+			path = iBeacon_TMobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 217C51A91D946C7000CA4CD9 /* Project object */;
+}

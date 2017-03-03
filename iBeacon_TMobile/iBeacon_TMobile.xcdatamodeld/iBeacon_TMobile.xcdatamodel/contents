@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Beacon" representedClassName="Beacon" syncable="YES">
+        <attribute name="lastNotifiedTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="proximityUUID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Promo" representedClassName="Promo" syncable="YES">
+        <attribute name="isRead" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="promoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="promoImageLarge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="promoImageThumb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="promoSyncDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="promoTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Beacon" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Promo" positionX="-54" positionY="18" width="128" height="135"/>
+    </elements>
+</model>

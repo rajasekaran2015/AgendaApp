@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>iBeacon_TMobile.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>217C51B01D946C7000CA4CD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>217C51CC1D946C7100CA4CD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>217C51D71D946C7100CA4CD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
